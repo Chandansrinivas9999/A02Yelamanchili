@@ -1,0 +1,98 @@
+#homebg{
+	background-image: url("BITW.jpg");
+}
+header{
+	font-size: 50px;
+	text-align: center;
+	font-style: normal;
+	color: rgb(0,0,255);
+	font-weight: bolder;
+}
+.group{
+	padding-left: 100px;
+	font-style: oblique;
+	color: black;
+}
+#films{
+	padding-left: 100px;
+	color:#009933 ;
+	text-decoration: underline;
+}
+#tr1{
+	padding-left: 500px;
+}
+#bgm{
+	background-image: url("camera.jpg") ;
+	background-size: 1360px 700px;
+}
+footer{
+	padding-left: 100px;
+	color: #00004d;
+	font-weight: bold;
+	padding-top: 30px;
+	font-style: oblique;
+	font-size: 20px;
+}
+#tickets{
+	background-image: url("camera.jpg");
+	background-size: 1360px 700px;
+}                                                
+#ticket{
+	color: black;
+	font-size: 30px;
+
+}
+#popcorn{
+	color: black;
+	font-size: 30px;
+}
+#payment{
+	color: black;
+	font-size: 30px;
+}
+#select{
+	color: black;
+	font-size: 30px;
+}
+#fil{
+	padding-left: 400px;
+	color: #ff3300;
+	font-style: oblique;
+	font-size: 20px;
+}
+#me{
+	color: #0099ff;
+}
+#head{
+	font-size: 30px;
+	text-decoration: underline;
+	color: #006699;
+	padding-left: 600px;
+
+}
+#paragraph{
+	font-size: 20px;
+	color: #ff3300;
+	padding-left: 30px;
+	font-style: oblique;
+}
+.group{
+	font-style: normal;
+	padding-left: 100px;
+	color: rgb(255,255,0);
+	font-size: 30px;
+}
+#chandan{
+	font-size: 30px;
+	color: white;
+}
+#result
+{
+	font-size:40px;
+	font-family:verdana;
+}
+#tc
+{
+	font-family:verdana;
+	font-size:40px;
+}

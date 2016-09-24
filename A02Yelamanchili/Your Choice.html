@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your Choice</title>
+	<link rel="stylesheet" type="text/css" href="Home.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body id="tickets">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+    <li id="chandan">Chandan</li>
+      <li><a href="Home.html">About</a></li>
+      <li class="active"><a href="Your Choice.html">Payment</a></li> 
+      <li><a href="Contact.html">Contact</a></li> 
+    </ul>
+  </div>
+</nav>
+
+
+<p id="ticket">Please Enter number of tickets</p><br>
+
+<input type="text" onblur="multiplyBy();" id="t" name="no">
+<p id="popcorn">Enter number of popcorn packets you need</p>
+<input type="text" onblur="multiplyBy();" id="p" name="enter popcorn">
+<p id="select">Select your film:
+<select>
+<option>Please select a movie:</option>
+	<option value="lovch">Love chapter</option>
+	<option value="gol">Gift of Love</option>
+	<option value="pmp">Paisa mea paramatma</option>
+</select>
+
+	<h2 id="payment">Proceed to payment:</h2>
+	<button >Ok</button><br>
+	<p id="tc">Total Cost  $ :<span id="result"></span>
+	<script src="Home.js"></script>
+
+
+ 
+</body>
+
+</html>

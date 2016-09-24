@@ -1,0 +1,20 @@
+h1
+{
+color: green;
+}
+.chandu
+{
+	width: 300px;
+	height: 200px;
+}
+body
+{
+	background-image: url("BITW.jpg");
+	padding-left: 120px;
+	padding-top: 100px;
+}
+h1
+{
+	color: blue;
+	text-decoration: underline;
+}
